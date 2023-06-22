@@ -1,0 +1,92 @@
+$color-white-0: #ffffff;
+$color-white-1: #fdf9f8;
+
+$color-black-0: #000000;
+$color-black-1: #303030;
+$color-black-2: #232323;
+
+$color-grey-0: #cacaca;
+$color-grey-1: #898989;
+$color-grey-2: #efefef;
+$color-grey-3: #7c7c7c;
+
+$color-seablue-0: #b0e4ff;
+
+$color-orange-0: #c4352b;
+$color-orange-1: #ffd3d0;
+$color-orange-2: #fddbec;
+$color-orange-3: #fef0ec;
+$color-orange-4: rgba(255, 131, 122, 0.1);
+$color-orange-5: #f37260;
+$color-orange-6: #ec6151;
+
+$color-violet-0: #e5dbfe;
+$color-violet-1: #b3c4fe;
+
+$text-gradient-heading: linear-gradient(
+  94.75deg,
+  #c4352b -117.13%,
+  #ff7663 100%
+);
+
+$text-gradient-primary: linear-gradient(
+  94.75deg,
+  #c4352b -117.13%,
+  #ff7663 100%
+);
+$text-gradient-secondary: linear-gradient(
+  94.27deg,
+  #c4352b -143.63%,
+  #ff7663 107.41%
+);
+$text-gradient-title: linear-gradient(
+  94.37deg,
+  #c4352b -15.82%,
+  #ff7663 108.99%
+);
+
+$text-gradient-red: linear-gradient(94.37deg, #c4352b -15.82%, #ff7663 108.99%);
+$text-gradient-red1: linear-gradient(
+  94.27deg,
+  #c4352b -143.63%,
+  #ff7663 107.41%
+);
+
+// Mixins
+@mixin d-flex($jc: flex-start) {
+  display: flex;
+  align-items: center;
+  justify-content: $jc;
+}
+
+// Font mixins
+
+@mixin font-small($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 300;
+}
+
+@mixin font-regular($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 400;
+}
+
+@mixin font-medium($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 500;
+}
+
+@mixin font-semibold($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 600;
+}
+
+@mixin font-bold($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 700;
+}
+
+@mixin font-extrabold($font-size: 16px) {
+  font-size: $font-size;
+  font-weight: 900;
+}
